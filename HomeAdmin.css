@@ -1,0 +1,99 @@
+/* HomeAdmin.css */
+
+body {
+    
+        font-family: Arial, sans-serif;
+        background-color: #8ff58f ; 
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-container {
+    display: flex;
+    height: 100vh;
+    width: 150vh;
+}
+
+.side-nav {
+    width: 250px;
+    background-color: #343a40; /* Dark background for sidebar */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-profile img {
+    border-radius: 50%;
+}
+
+.admin-profile h3 {
+    margin: 10px 0;
+}
+
+.admin-profile p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.side-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.side-nav a:hover {
+    background-color: #495057; /* Lighter shade on hover */
+}
+
+.admin-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.dashboard {
+    height: 40vh;
+    width: 60vh;
+    background-color: rgb(9, 185, 20);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.dashboard-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.welcome-box {
+    width: 50vh;
+    height: 20vh;
+    background-color: #1bda35; /* Light background for welcome box */
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.welcome-box h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #2706e6;
+}
+
+.welcome-box p {
+    margin: 5px 0;
+    color: #d32f2f;
+}

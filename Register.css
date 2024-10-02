@@ -1,0 +1,94 @@
+/* Reset margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #06a606; /* Light green background */
+  color: #333;
+}
+
+/* Main container to align items side by side */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #029702;
+  padding: 20px;
+}
+
+/* Left side logo and title */
+.left-section {
+  flex: 1;
+  text-align: left;
+  padding-right: 40px;
+}
+
+.left-section h1 {
+  font-size: 30px;
+  color: #006400; /* Dark green */
+  margin-bottom: 20px;
+}
+
+.left-section img {
+  width: 150px;
+  height: auto;
+}
+
+/* Right side form */
+.form-section {
+  flex: 1;
+  background-color: rgb(0, 235, 23);
+  padding: 40px;
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+}
+
+/* Form title */
+.form-section h2 {
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 20px;
+}
+
+/* Input fields */
+.input-group {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.input-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button */
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #006400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #38a836;
+}

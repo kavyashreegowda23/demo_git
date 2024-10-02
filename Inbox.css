@@ -1,0 +1,64 @@
+.inbox-container {
+  display: flex;
+  height: 100vh;
+  background-color: #A6E3A1; /* Light green background */
+}
+/* Content wrapper */
+.inbox-content {
+ width: 50vh;
+ margin: 0 auto;
+}
+
+/* Page title */
+.inbox-content h1 {
+ color: #2e7d32; /* Dark green color */
+ font-size: 28px;
+ font-weight: bold;
+ margin-bottom: 30px;
+ text-align: left;
+}
+
+/* Each request box */
+.request-box {
+ background-color: #0fcc25; /* Light gray */
+ padding: 20px;
+ margin-bottom: 20px;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Text for request details */
+.request-box p {
+ font-size: 16px;
+ color: #333;
+ margin: 8px 0;
+}
+
+/* Button styles */
+.accept-button, .reject-button {
+ padding: 10px 20px;
+ font-size: 16px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ margin-right: 10px;
+}
+
+.accept-button {
+ background-color: #388e3c; /* Green */
+ color: white;
+}
+
+.reject-button {
+ background-color: #d32f2f; /* Red */
+ color: white;
+}
+
+/* Hover effect for the buttons */
+.accept-button:hover {
+ background-color: #2e7d32; /* Darker green */
+}
+
+.reject-button:hover {
+ background-color: #b71c1c; /* Darker red */
+}

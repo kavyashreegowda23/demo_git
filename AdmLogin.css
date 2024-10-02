@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .container {
+    
+    width: 70vh;
+  
+    margin: 0 auto;
+  }
+  
+  .login-form {
+    background-color: rgb(7, 181, 25);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title-h2{
+  
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+  
+  .input-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .input-field i {
+    margin-right: 10px;
+    color: #888;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .input-field input:focus {
+    border-color: #94dfaa;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #70d76c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #066913;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #cbd8e5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

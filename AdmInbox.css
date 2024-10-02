@@ -1,0 +1,65 @@
+.inbox-container {
+    padding: 20px;
+    background-color: #8ff58f;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 180vh;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.inbox-content {
+    margin-top: 20px;
+}
+
+h3 {
+    color: #000809;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.request-box {
+  
+    border: 1px solid #21ad12;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.2s;
+}
+
+.request-box:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.request-box p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.accept-button, .reject-button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accept-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.accept-button:hover {
+    background-color: #218838;
+}
+
+.reject-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.reject-button:hover {
+    background-color: #c82333;
+}

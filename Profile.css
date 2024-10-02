@@ -1,0 +1,93 @@
+/* Resetting margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the entire profile page */
+.profile-container {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #8ff58f; /* Light green background */
+    padding: 20px;
+    width: 100vh;
+}
+
+/* Profile title */
+.profile-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #006400;
+    text-align: center;
+}
+
+/* Profile sections with labels and inputs */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.profile-section label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.profile-section input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.profile-section input:focus {
+    border-color: #38a836; /* Focus effect */
+    outline: none;
+}
+
+/* Button styling */
+.save-button, .logout-button {
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.save-button {
+    background-color: #006400;
+}
+
+.save-button:hover {
+    background-color: #38a836; /* Save button hover */
+}
+
+.logout-button {
+    background-color: #ff4d4d;
+}
+
+.logout-button:hover {
+    background-color: #e60000; /* Logout button hover */
+}
+
+/* Extra spacing between the two buttons */
+.profile-section button + button {
+    margin-top: 10px;
+}
